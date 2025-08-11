@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    transition: background-color 0.5s ease, width 0.5s ease;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    gap: 1%;
+    background-color: burlywood;
+    border-radius: 10px;
+    max-width: 100%;
+    animation-duration: 3s;
+    animation-name: slide-left;
+    box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 0.8);
+}
+
+header h2 {
+    margin-left: 1%;
+}
+
+header p {
+    font-size: large;
+    align-self: center;
+}
+
+main {
+    background-color: burlywood;
+    border-radius: 10px;
+    animation-duration: 3s;
+    animation-name: slide-right;
+    box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 0.8);
+}
+
+.color-choose {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    gap: 0.5rem;
+}
+
+.box-preview {
+    min-width: 250px;
+    min-height: 250px;
+    max-width: 300px;
+    max-height: 300px;
+    border-radius: 10px;
+    background-color: white;
+    transition: background-color 0.5s ease, width 0.5s ease;
+}
+
+#choose-color {
+    min-width: 100%;
+    background-color: burlywood;
+    border-color: transparent;
+}
+
+.rgb-field {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.last-colors {
+    display: flex;
+    flex-flow: row wrap;
+    gap: 10px;
+}
+
+.last-button {
+    min-height: 30px;
+    min-width: 30px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s;
+}
+
+.last-button:hover {
+    transform: scale(1.1);
+    border: 2px solid #000;
+}
+
+footer {
+    background-color: burlywood;
+    text-align: center;
+    border-radius: 10px;
+    animation-duration: 5s;
+    animation-name: slide-left;
+    box-shadow: 5px 5px 10px 2px rgb(0 0 0 / 0.8);
+}
+
+@media (max-width: 337px) {
+    header {
+        font-size: small;
+    }
+}
+
+@keyframes slide-right {
+    from {
+        margin-right: 100%;
+    }
+
+    to {
+        margin-right: 0%;
+    }
+}
+
+@keyframes slide-left {
+    from {
+        margin-left: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+    }
+}
