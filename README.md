@@ -52,4 +52,4 @@ colorify/
 ## 🌐 Live Demo
 [Open Colorify in your browser](https://yari4ek89.github.io/colorify/)
 
-✍ Developed with ❤️ by Yaroslav Zhyman, 2025
+## ✍ Developed with ❤️ by Yaroslav Zhyman, 2025
