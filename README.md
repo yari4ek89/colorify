@@ -18,7 +18,7 @@
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
-   git clone https://github.com/username/colorify.git
+   git clone https://github.com/yari4ek89/colorify.git
 
 2. Navigate to the project folder:
    ```bash
